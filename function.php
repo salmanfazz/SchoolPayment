@@ -1,7 +1,7 @@
 <?php
 
 	//koneksi db
-	$con = mysqli_connect("localhost","root","","dbmagang");
+	$con = mysqli_connect("119.235.255.105","root","Saisai2019","dbmagang");
 	function query($query) {
 		global $con;
 		$result = mysqli_query($con, $query);
